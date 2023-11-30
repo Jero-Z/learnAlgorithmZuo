@@ -1,2 +1,2 @@
 # learnAlgorithmZuo
-follow algorithmzuo learn and exercise
+follow [algorithmzuo](https://github.com/algorithmzuo) learn and exercise
