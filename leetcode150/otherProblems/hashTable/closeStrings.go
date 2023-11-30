@@ -46,7 +46,8 @@ import (
 解释：不管执行多少次操作，都无法从 word1 得到 word2 ，反之亦然。
 思路：
 若word2中的单词不在单词1中则直接返回false
-
+建立两个slice，先进行差异度筛选，也就是查看是否有单个字节的差异
+将两个slice 进行排序后使用reflect 进行相等的判定
 */
 func closeStrings(word1 string, word2 string) bool {
 	c1, c2 := make([]int, 26), make([]int, 26)
