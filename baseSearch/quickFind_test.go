@@ -1,4 +1,4 @@
-package baseSort
+package baseSearch
 
 import "testing"
 
